@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-image:url(football3.avif);
+    background-image:url(football8.jpg);
  /* Ensures the image covers the entire page */
  background-size: cover;
  /* Prevents the image from repeating */
@@ -49,6 +49,22 @@ h2 {
     margin-bottom: 15px;
 }
 
+
+.calling img{
+    display: flex;
+    justify-content:left;
+        width: 50%; /*the percentage of the parent container */
+        height: auto; /* Maintains the aspect ratio */
+        max-width: 300px; /* Set a maximum width, if needed */
+    padding: 10px;
+}
+
+.calling p{
+    color: white;
+    margin: 20px;
+    padding: 5px;
+}
+
 .contact-info{
     color: #d8cb14;
 }
@@ -84,6 +100,7 @@ a:any-link{
 .contact-info ul li a:hover,
 .department-contacts ul li a:hover {
     text-decoration: underline;
+    color: darkorchid;
 }
 
 /* Social Media Links */
@@ -103,13 +120,15 @@ a:any-link{
 }
 
 .social-media a {
-    color: #3498db;
+    color: #34c2db;
     text-decoration: none;
     margin: 0 10px;
 }
 
 .social-media a:hover {
     text-decoration: underline;
+    color: darkmagenta;
+    text-decoration: dotted;
 }
 
 /*online places to find us have been styled here*/
