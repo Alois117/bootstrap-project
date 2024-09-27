@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-image:url(football8.jpg);
+    background-image:url(football6.jpg);
  /* Ensures the image covers the entire page */
  background-size: cover;
  /* Prevents the image from repeating */
@@ -49,6 +49,28 @@ h2 {
     margin-bottom: 15px;
 }
 
+.making_contact{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    background-image: url(football3.avif); /* Add your background image here */
+            background-size: cover;
+            background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.contacting p{
+    margin-right: 200px;
+    color: white;
+    display: flex;
+    justify-content:center
+    
+}
 
 .calling img{
     display: flex;
@@ -78,7 +100,7 @@ h2 {
 
 a:any-link{
     text-align: right;
-    color: rgb(144, 151, 130);
+    color: rgb(222, 94, 248);
   }
 
 .department-contacts{
@@ -92,7 +114,7 @@ a:any-link{
 
 .contact-info ul li a,
 .department-contacts ul li a {
-    color: #34d8dbd4;
+    color: #9334dbd4;
     /* text-decoration: none; */
     text-size-adjust: 200px;
 }
@@ -120,7 +142,7 @@ a:any-link{
 }
 
 .social-media a {
-    color: #34c2db;
+    color: #dba134;
     text-decoration: none;
     margin: 0 10px;
 }
