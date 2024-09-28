@@ -5,6 +5,69 @@ body {
     padding: 0;
 }
 
+.locations-container h1, em, u{
+text-align: center;
+
+}
+
+.coach-info {
+    background-color: #130909; /* Default background color */
+    color: #fbf9f9; /* Default text color */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.coach-info img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.coach-info strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.coach-info:hover {
+    background-color: #555; /* Background color change on hover */
+    color:chartreuse /* Text color changes to blue on hover */
+}
+
+
+.gallery {
+    display: grid;  /* Activate grid layout */
+    grid-template-columns: 1fr 1fr;  /* Two columns, each takes equal space */
+    gap: 20px;  /* Space between the images */
+    justify-items: center;  /* Center images horizontally within their grid cells */
+    align-items: center;  /* Align images vertically */
+    padding: 20px;
+    background-color: #130909;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.gallery img {
+    width: 100%;  /* Make images responsive, full width inside grid */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 300px;  /* Limit maximum image width */
+    border-radius: 50%;
+    margin-bottom: 10px;  /* Add some rounding to the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Add a shadow for a subtle 3D effect */
+    transition: transform 0.3s ease;  /* Add smooth transition for hover effect */
+    margin-left: 350px;
+    background-color: #130909;
+}
+
+.gallery:hover {
+    transform: scale(1.05);  /* Slightly enlarge the image on hover */
+    background-color: #555;
+}
+
+
 .locations-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -14,7 +77,7 @@ body {
 
 
 .location-item1 {
-    background-color: #f9f9f9;
+    background-color: #e3e72b;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
@@ -22,7 +85,7 @@ body {
 }
 
 .location-item2 {
-    background-color: #f9f9f9;
+    background-color: #e3dd1e;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
@@ -30,7 +93,7 @@ body {
 }
 
 .location-item3 {
-    background-color: #f9f9f9;
+    background-color: #ba269f;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
@@ -38,7 +101,7 @@ body {
 }
 
 .location-item4 {
-    background-color: #f9f9f9;
+    background-color: #b825b8;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
@@ -46,7 +109,7 @@ body {
 }
 
 .location-item5 {
-    background-color: #f9f9f9;
+    background-color: #27a4d2;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
@@ -54,7 +117,7 @@ body {
 }
 
 .location-item6 {
-    background-color: #f9f9f9;
+    background-color: #44a6e8;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
@@ -68,7 +131,7 @@ body {
 .paragraph1 p{
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: white;
 }
 
 .location1{
@@ -82,7 +145,8 @@ body {
 }
 
 .location-info1{
-    color: white;
+    color: rgb(16, 78, 224);
+    text-size-adjust: 100%;
 }
 
 .location-info1 p{
@@ -148,6 +212,14 @@ body {
 .location-info5 p{
     color:chartreuse;
     text-size-adjust: 50px;
+}
+
+
+/* Google Maps iframe */
+iframe {
+    width: 100%;
+    height: 180px;
+    border: none;
 }
 
 .location6{
