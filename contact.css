@@ -53,7 +53,8 @@ h2 {
     display: flex;
     justify-content: end;
     margin-right: 30px;
-    background-image: url(football3.avif); /* Add your background image here */
+    background-image: url(football3.avif); /* Adding my background image  */
+    margin: 20px 70px;
             background-size: cover;
             background-position: center;
     align-items: center;
@@ -62,6 +63,10 @@ h2 {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease; /* Smooth transition */
+}
+.making_contact:hover {
+    background-color: #555; /* Background color change on hover */
+    color:chartreuse /* Text color changes to blue on hover */
 }
 
 .contacting p{
@@ -133,7 +138,8 @@ a:any-link{
     margin: 20px 70px;
     cursor: pointer;
     color: #d8cb14; 
-     flex-direction: column;   
+     flex-direction: column;  
+     background-image: url(football3.avif); 
     
 }
 
