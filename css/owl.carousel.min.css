@@ -1,0 +1,48 @@
+.owl-carousel,
+.owl-carousel .owl-item {
+  position: relative;
+}
+
+.owl-carousel {
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+}
+
+.owl-carousel .owl-item {
+  min-height: 1px;
+  float: left;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  cursor: pointer;
+  user-select: none;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  user-select: none;
+}
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
