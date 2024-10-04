@@ -14,6 +14,26 @@
  }
 /*** Spinner End ***/
 
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+.light-background {
+    --background-color: #f9f9f9;
+    --surface-color: #ffffff;
+  }
+  
+  .dark-background {
+    --background-color: #060606;
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --surface-color: #252525;
+    --contrast-color: #ffffff;
+  }
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+
 
 /*** Common CSS Start ***/
 .back-to-top {
@@ -356,9 +376,13 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*** About End ***/
 
-
+.custom-rounded{
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 4rem;
+}
 /*** service Start ***/
 .service {
     background: linear-gradient(rgba(255, 72, 128, 0.05), rgba(255, 72, 128, 0.2));
